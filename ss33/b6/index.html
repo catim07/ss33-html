@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>eggplant</title>
+</head>
+
+<body style="background-color: rgb(208, 241, 242);">
+    <div style="display: flex; flex-direction: column; align-items: center;">
+        <h1 style="color: rgb(39, 143, 218); font-size: 60px;">Ứng dụng Thời tiết</h1>
+        <div style="display: flex;">
+            <input id="input" type="text"
+                style="font-size: 50px; background-color: rgb(206, 249, 249); border-radius: 10px 0 0 10px;">
+            <button onclick="printf(event)"
+                style="background-color: blue; color: white;border-radius: 0 10px 10px 0;">Tìm Kiếm</button>
+        </div>
+        <h1 id="warning" style="color: red;">
+
+        </h1>
+        <div id="weather">
+            <!-- <div style="width: 700px; height: 300px; background-color: white; border-radius: 10px; display: flex; flex-direction: column;">
+                <h2 style="margin-top: 30px;margin-left: 30px; font-weight:900; font-size: 40px;">Hồ Chí Minh</h2>
+                <div style="display: flex; margin-left: 30px; align-items: center; gap: 20px;">
+                    <div style="font-size: 120px;">☀️</div>
+                    <div style="font-size: 80px; font-weight: 600;">32°C</div>
+                    <div style="display: flex; flex-direction: column; gap: 10px;">
+                        <div style="font-size: 30px;">Nắng</div>
+                        <div style="font-size: 30px;">Độ ẩm: 75%</div>
+                        <div style="font-size: 30px;">Tốc Độ gió: 7km/h</div>
+                    </div>
+                </div>
+            </div> -->
+        </div>
+    </div>
+    <script src="./index.js"></script>
+</body>
+
+</html>
